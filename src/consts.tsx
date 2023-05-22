@@ -12,7 +12,7 @@ export const navItems = [
         icon: <FolderIcon width={24} height={24} />
     },
     {
-        text: "Cart",
+        text: "Card",
         link: "/dashboard/card",
         icon: <InboxIcon width={24} height={24} />
     }

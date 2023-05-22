@@ -26,8 +26,11 @@ export default function AddToCard({
                 <span className="font-bold text-textLightBlue">prime</span>
                 <span className="text-darkGreyText">Same-Day</span>
             </div>
-            <select className="bg-none border-none w-[40%] text-freeReturnsBlue">
-                <option selected>FREE returns</option>
+            <select
+                className="bg-none border-none w-[40%] text-freeReturnsBlue"
+                defaultValue="free"
+            >
+                <option value="free">FREE returns</option>
             </select>
             <span className="text-freeReturnsBlue"></span>
             <div>
@@ -54,8 +57,11 @@ export default function AddToCard({
             >
                 {active ? "In stock" : "Out of stock"}
             </span>
-            <select className="bg-selectBackgroundGrey border-darkGreySelectBorder border border-solid w-[30%] rounded-lg shadow-md">
-                <option selected>Qty: 1</option>
+            <select
+                className="bg-selectBackgroundGrey border-darkGreySelectBorder border border-solid w-[30%] rounded-lg shadow-md"
+                defaultValue="1"
+            >
+                <option value="1">Qty: 1</option>
             </select>
             <button
                 className="bg-addToCardGrey py-2 rounded text-white font-semibold tablet:text-base text-sm"
