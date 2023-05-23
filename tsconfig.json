@@ -21,7 +21,7 @@
         ],
         "paths": {
             "@/*": ["./src/*"],
-            "@root/*": ["../simplify-project/*"],
+            "@root/*": ["./*"],
             "@interfaces/*": ["./src/interfaces/*"]
         }
     },
