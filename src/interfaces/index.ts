@@ -7,6 +7,10 @@ export interface DashboardItemInterface {
     id: string;
 }
 
+export interface BrowseItemInterface extends DashboardItemInterface {
+    color: string;
+}
+
 export interface DataItemInterface {
     data: {
         image: string;

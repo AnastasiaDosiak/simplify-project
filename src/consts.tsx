@@ -4,16 +4,19 @@ export const navItems = [
     {
         text: "Dashboard",
         link: "/dashboard/list",
+        targetSegment: null,
         icon: <HomeIcon width={24} height={24} />
     },
     {
         text: "Browse",
-        link: "/dashboard/list",
+        link: "/dashboard/browse",
+        targetSegment: "browse",
         icon: <FolderIcon width={24} height={24} />
     },
     {
         text: "Card",
         link: "/dashboard/card",
+        targetSegment: "card",
         icon: <InboxIcon width={24} height={24} />
     }
 ];
